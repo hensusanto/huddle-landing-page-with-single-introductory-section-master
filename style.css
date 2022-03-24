@@ -90,6 +90,10 @@ body {
   font-weight: 400;
 }
 
+.desktop-bg {
+  display: none;
+}
+
 .bg-img-overlay {
   position: absolute;
   width: 100%;
@@ -98,6 +102,7 @@ body {
 
 .card {
   width: 87.2%;
+  max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -105,7 +110,7 @@ body {
 
 .card__logo {
   width: 7.5rem;
-  margin-top: 2rem;
+  padding-top: 2rem;
   margin-bottom: 3.5rem;
 }
 
@@ -129,10 +134,53 @@ body {
 }
 
 .card__sm-icons {
-  margin-top: 3.5rem;
-  margin-bottom: 1.2rem;
+  width: 8rem;
+  margin: 3.5rem auto 1.2rem auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+ion-icon {
+  color: #fff;
+}
+
+@media (min-width: 951px) {
+  .mobile-bg {
+    display: none;
+  }
+  .desktop-bg {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .card__hero-img {
+    width: 50%;
+  }
+  .card__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .card__cta {
+    padding-left: 3.7rem;
+    text-align: left;
+  }
+  .card__sm-icons {
+    margin-top: 0;
+    margin-right: 0;
+  }
+  .card__btn {
+    -webkit-transition: 300ms;
+    transition: 300ms;
+  }
+  .card__btn:hover {
+    background-color: #E880E8;
+    color: #fff;
+    cursor: pointer;
+  }
 }
 /*# sourceMappingURL=style.css.map */
