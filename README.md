@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/hensusanto/huddle-landing-page-with-single-introductory-section-master](https://github.com/hensusanto/huddle-landing-page-with-single-introductory-section-master)
+- Live Site URL: [https://huddle-landing-page-with-single-introductory-section-4pesnkbwp.vercel.app/](https://huddle-landing-page-with-single-introductory-section-4pesnkbwp.vercel.app/)
 
 ## My process
 
